@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <DHT.h>
 
-#define PIN_DHT22 2
+#define PIN_DHT22 2  // DHT22 센서가 연결된 핀
 
 DHT dht(PIN_DHT22, DHT22);  // DHT 센서 객체 생성
 
