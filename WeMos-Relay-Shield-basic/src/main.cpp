@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#define PIN_RELAY 5
+#define PIN_RELAY 5 // 릴레이가 연결된 핀
 
 void setup() {
   pinMode(PIN_RELAY, OUTPUT);

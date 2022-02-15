@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>  // WS2812 네오픽셀 라이브러리
 #include <Arduino.h>
 
-#define PIN_WS2812 4
+#define PIN_WS2812 4  // WS2812가 연결된 핀
 #define NUMPIXELS 1
 
 // 네오픽셀 객체 생성
